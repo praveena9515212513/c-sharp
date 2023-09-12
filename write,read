@@ -18,3 +18,46 @@ namespace Welcome
         }
     }
 }
+*********************************************************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Welcome
+{
+    class Class1
+    {
+        static void Main(string[] args)
+        {
+            int x = 1;
+            int y = 2;
+            Console.WriteLine(Math.Max(x, y));
+            Console.WriteLine(Math.Min(x, y));
+            Console.WriteLine(Math.Sqrt(19));
+            Console.WriteLine(Math.Abs(-4.7));
+            Console.WriteLine(Math.Round(9.99));
+            
+        } 
+    }
+}
+*********************************************************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Welcome
+{
+    class Class1
+    {
+        static void Main(string[] args)
+        {
+            string s = Console.ReadLine();
+            Console.WriteLine("The string that you have entered is of length: " + s.Length);
+            Console.WriteLine(s.ToUpper());
+            Console.WriteLine(s.ToLower());
+        } 
+    }
+}
+*********************************************************************
